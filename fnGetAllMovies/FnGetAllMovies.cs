@@ -13,7 +13,6 @@ namespace fnGetAllMovies
         private readonly ILogger<FnGetAllMovies> _logger;
         private readonly CosmosClient _cosmosClient;
 
-
         public FnGetAllMovies(ILogger<FnGetAllMovies> logger, CosmosClient cosmosClient)
         {
             _logger = logger;
